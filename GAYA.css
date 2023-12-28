@@ -15,11 +15,13 @@ header {
 .profile-section {
     text-align: center;
     margin: 20px;
+   
 }
 
 .profile-section img {
     max-width: 300px;
     max-height: 400px;
+    object-fit: cover;
     
 }
 
