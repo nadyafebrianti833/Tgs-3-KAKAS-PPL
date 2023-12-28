@@ -12,16 +12,26 @@ header {
     padding: 1em;
 }
 
-.profile-section {
-    text-align: center;
-    margin: 20px;
+.profile-container {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid black; /* Warna dan ketebalan garis kotak (putih) */
+  box-sizing: border-box;
+  display: inline-block;
+  flex-direction: column;
+  align-items: center;
 }
 
-.profile-section img {
-    max-width: 300px;
-    max-height: 400px;
-    
+.profile-container img {
+  width: 300px;
+  height: auto;
+  display: block;
 }
+
+.profile-container h3 {
+  margin-top: 10px; /* Atur jarak antara gambar dan teks */
+}
+
 
 .leftcolumn {   
     float: right;
